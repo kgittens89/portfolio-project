@@ -12,6 +12,7 @@ ul {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 li {
@@ -20,6 +21,7 @@ li {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 button {
@@ -27,7 +29,7 @@ button {
     margin: 10px;
     border: none;
     font-size: 5vh;
-    background-color: white;
+    background-color: var(--primary);
 }
 
 @media (max-width: 500px) {
