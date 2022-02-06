@@ -21,6 +21,7 @@ li {
 
 li:hover, li a:hover {
     color: #4b2f33;
+    text-decoration: underline;
 }
 
 a {
@@ -37,14 +38,20 @@ button {
 }
 
 @media (max-width: 500px) {
-    ul {
+    /* ul {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
+    } */
+
+    li , li a {
+        font-size: 1.5vh;
+        padding: 0.3em;
     }
 
-    li {
-        margin: 1vh;
+    button {
+        height: 40%;
+        font-size: 3vh;
     }
 }
