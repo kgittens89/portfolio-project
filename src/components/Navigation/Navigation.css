@@ -1,0 +1,44 @@
+/* * {
+    border: 1px red solid;
+} */
+
+.navBar {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 10vh;
+}
+
+ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    height: 60%;
+    margin: 10px;
+    border: none;
+    font-size: 5vh;
+    background-color: white;
+}
+
+@media (max-width: 500px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    li {
+        margin: 1vh;
+    }
+}
