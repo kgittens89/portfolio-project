@@ -19,6 +19,10 @@ li {
     list-style: none;
 }
 
+li:hover, li a:hover {
+    color: #4b2f33;
+}
+
 a {
     text-decoration: none;
     color: black;
