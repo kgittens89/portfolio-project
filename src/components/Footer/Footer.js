@@ -28,7 +28,12 @@ function Footer() {
 						rel='noreferrer'>
 						<AiFillTwitterCircle className='icons' />
 					</a>
-					<MdEmail className='icons' />
+					<a
+						href='mailto:keishamsa@me.com'
+						target='_blank'
+						rel='noreferrer'>
+						<MdEmail className='icons' />
+					</a>
 				</div>
 			</footer>
 		);
