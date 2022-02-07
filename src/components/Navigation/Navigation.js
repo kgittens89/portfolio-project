@@ -25,9 +25,6 @@ function Navigation() {
 					<li>
 						<Link to='/about'>About Me</Link>
 					</li>
-					<li>
-						<Link to='/contact'>Contact Me</Link>
-					</li>
 					<li>Resume</li>
 				</ul>
 			</nav>
