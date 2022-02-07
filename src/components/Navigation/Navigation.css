@@ -8,15 +8,21 @@
     height: 10vh;
 }
 
-ul {
+nav ul {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-li {
+nav li, nav li a {
     list-style: none;
+    font-size: 2.5vh;
+}
+
+ nav li:hover, li a:hover {
+    color: #4b2f33;
+    text-decoration: underline;
 }
 
 a {
@@ -25,22 +31,23 @@ a {
 }
 
 button {
-    height: 60%;
+    height: 40%;
     margin: 10px;
     border: none;
-    font-size: 5vh;
+    font-size: 3vh;
     background-color: var(--primary);
 }
 
 @media (max-width: 500px) {
-    ul {
+    /* ul {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
-    }
+    } */
 
-    li {
-        margin: 1vh;
+    nav li , nav li a {
+        padding: 0.3em;
+        font-size: 2vh;
     }
 }
