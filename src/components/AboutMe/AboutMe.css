@@ -1,0 +1,18 @@
+.about-me h2 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+.about-me h4 {
+    text-decoration: underline;
+    margin-top: 2em;
+}
+
+.about-me ul li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me {
+    height: 90vh;
+}
