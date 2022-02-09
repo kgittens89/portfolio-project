@@ -1,25 +1,37 @@
 .icons {
-    font-size: 3vh;
+    font-size: 5vw;
     padding: 0.5em 0.3em;
 }
 
 .icons:hover {
-    color: #4b2f33;
+    color: var(--secondary);
     cursor: pointer;
 }
 
 footer {
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     right: 0;
-    margin: 0 0.5em;
+    margin: 1em 0.5em;
     display: flex;
     justify-content: space-between;
     align-content: center;
-    height: 10vh;
+    height: 10%;
 }
 
 p {
     margin-left: 1em;
+}
+
+@media (min-width: 500px) {
+    .icons {
+        font-size: 3.5vw;
+    }
+}
+
+@media (min-width: 850px) {
+    .icons {
+        font-size: 30px;
+    }
 }

@@ -17,11 +17,13 @@ nav ul {
 
 nav li, nav li a {
     list-style: none;
-    font-size: 2.5vh;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
  nav li:hover, li a:hover {
-    color: #4b2f33;
+    color: var(--secondary);
     text-decoration: underline;
 }
 
@@ -31,23 +33,29 @@ a {
 }
 
 button {
-    height: 40%;
-    margin: 10px;
+    height: 65%;
+    margin: 10px 5px;
     border: none;
-    font-size: 3vh;
+    font-size: 25px;
     background-color: var(--primary);
+    color: black;
 }
 
-@media (max-width: 500px) {
-    /* ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end;
-    } */
+@media (min-width: 500px) {
+    ul {
+       justify-content: center;
+    }
 
     nav li , nav li a {
         padding: 0.3em;
-        font-size: 2vh;
+        font-size: 23px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1500px) {
+    nav li,
+    nav li a {
+        font-size: 26px;
     }
 }

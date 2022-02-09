@@ -14,5 +14,25 @@
 }
 
 .about-me {
-    height: 90vh;
+    width: 390px;
+    margin: auto;
+}
+
+
+@media (min-width: 600px) {
+    .about-me {
+        width: 550px;
+    }
+}
+
+@media (min-width: 800px) {
+    .about-me {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1025) {
+    .about-me {
+        width: 850px;
+    }
 }
