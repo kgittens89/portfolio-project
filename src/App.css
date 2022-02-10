@@ -10,6 +10,7 @@
 .App {
   text-align: center;
   font-family: Canela, 'Silk Serif', 'Louize Display';
+  /* height: 90vh; */
 }
 
 body {
@@ -25,6 +26,9 @@ h1 {
   margin: 150px auto;
 }
 
+main {
+  height: 70%;
+}
 
 @media (min-width: 750px) {
   h1 {
