@@ -23,13 +23,13 @@ nav li, nav li a {
 }
 
  nav li:hover, li a:hover {
-    color: var(--secondary);
+    /* color: var(--secondary); */
     text-decoration: underline;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--secondary);
 }
 
 button {
