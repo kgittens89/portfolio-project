@@ -29,25 +29,35 @@ function Navigation() {
 	};
 	return (
 		<nav className='navBar'>
-			{width < 600 ?
+			{width < 600 ? (
 				<button onClick={handleToggle}>
-			{navbarOpen ? <MdClose /> : <FiMenu />}
-		</button> : ''
-}
-				<ul style={{ display: navbarOpen ? 'flex' : 'none' }}>
-					<li>
-						<Link to='/'>Home</Link>
-					</li>
-					<li>
-						<Link to='/projects'>Projects</Link>
-					</li>
-					<li>
-						<Link to='/about'>About Me</Link>
-					</li>
-					<li>Resume</li>
-				</ul>
-			</nav>
-		);
+					{navbarOpen ? <MdClose /> : <FiMenu />}
+				</button>
+			) : (
+				''
+			)}
+			<ul style={{ display: navbarOpen ? 'flex' : 'none' }}>
+				<li>
+					<Link to='/'>Home</Link>
+				</li>
+				<li>
+					<Link to='/projects'>Projects</Link>
+				</li>
+				<li>
+					<Link to='/about'>About Me</Link>
+				</li>
+				<li>
+					<a
+						href='https://drive.google.com/file/d/1NtfW8zqoP6CLmXYhX0V-E4LP9gn7pa1I/view?usp=sharing'
+						target='_blank'
+						rel='noreferrer'
+					>
+						Resume
+					</a>
+				</li>
+			</ul>
+		</nav>
+	);
 }
 
 export default Navigation;
