@@ -1,11 +1,14 @@
 .icons {
     font-size: 5vw;
     padding: 0.5em 0.3em;
+    color: var(--primary);
 }
 
 .icons:hover {
-    color: var(--secondary);
+    /* color: var(--secondary); */
     cursor: pointer;
+    animation: headShake;
+    animation-duration: 1s;
 }
 
 footer {
@@ -15,10 +18,12 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    margin: 1em 0.5em;
+    /* margin: 1em 0.5em; */
     display: flex;
     justify-content: space-between;
     align-content: center;
+    background-color: var(--secondary);
+    color: var(--primary);
 }
 
 p {
