@@ -24,10 +24,11 @@ footer {
     align-content: center;
     background-color: var(--secondary);
     color: var(--primary);
+    margin-right: 1em;
 }
 
 p {
-    margin-left: 1em;
+    margin: 1em;
 }
 
 @media (min-width: 500px) {
