@@ -1,6 +1,7 @@
 # Personal Portfolio
 
 ## Link to deployed Site
+ https://keisha-gittens.netlify.app/
 
 ## Technologies Used
 - React
