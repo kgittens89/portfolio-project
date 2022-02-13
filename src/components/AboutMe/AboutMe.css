@@ -1,38 +1,38 @@
-.about-me h2 {
+h2 {
     font-size: 2em;
     margin-bottom: 1.5em;
 }
 
-.about-me h4 {
+.about h4 {
     text-decoration: underline;
     margin-top: 2em;
 }
 
-.about-me ul li {
+/* .about ul li {
     display: flex;
     flex-wrap: wrap;
+} */
+
+.about {
+    /* width: 390px; */
+    margin: 200px auto;
 }
 
-.about-me {
-    width: 390px;
-    margin: auto;
-}
 
-
-@media (min-width: 600px) {
-    .about-me {
+/* @media (min-width: 600px) {
+    .about {
         width: 550px;
     }
-}
+} */
 
 @media (min-width: 800px) {
-    .about-me {
-        width: 700px;
+    .about {
+        width: 800px;
     }
 }
 
-@media (min-width: 1025) {
-    .about-me {
+/* @media (min-width: 1025) {
+    .about {
         width: 850px;
     }
-}
+} */
