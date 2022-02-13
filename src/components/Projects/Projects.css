@@ -22,9 +22,9 @@
     position: relative;
 }
 
-@media(min-width: 775px) {
+/* @media(min-width: 775px) {
     .projects {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-}
+} */
