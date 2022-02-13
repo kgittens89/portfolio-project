@@ -1,6 +1,11 @@
-:root {
+/* :root {
   --primary: rgb(211, 185, 189);
   --secondary: rgb(75, 47, 51);
+  --third: rgb(17, 13, 14);
+} */
+:root {
+  --primary: rgb(55, 71, 79);
+  --secondary: rgb(224, 224, 224);
   --third: rgb(17, 13, 14);
 }
 
@@ -10,8 +15,7 @@
 
 .App {
   text-align: center;
-  font-family: Canela, 'Silk Serif', 'Louize Display';
-  /* height: 90vh; */
+  font-family: Canela, 'Silk Serif', 'Louize Display'; 
   color: var(--secondary);
 }
 
@@ -26,10 +30,22 @@ h1 {
 .home {
   width: 80%;
   margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.component {
+  height: 100%;
+  margin-bottom: 200px;
+  scroll-margin-bottom: 0;
+}
+
+.t ,.about {
+  border-top: 2px dotted var(--third);
 }
 
 main {
-  height: 70%;
+  height: 80%;
 }
 
 @media (min-width: 750px) {
