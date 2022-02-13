@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
 import './Navigation.css';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 
 function Navigation() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
@@ -37,21 +39,45 @@ function Navigation() {
 				''
 			)}
 			<ul style={{ display: navbarOpen ? 'flex' : 'none' }}>
+				{/* https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react */}
 				<li>
-					<Link to='/'>Home</Link>
+					<Link
+						activeClass='active'
+						to='home'
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						Home
+					</Link>
 				</li>
 				<li>
-					<Link to='/projects'>Projects</Link>
+					<Link
+						activeClass='active'
+						to='about'
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						About Me
+					</Link>
 				</li>
 				<li>
-					<Link to='/about'>About Me</Link>
+					<Link
+						activeClass='active'
+						to='projects'
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						Projects
+					</Link>
 				</li>
 				<li>
 					<a
 						href='https://drive.google.com/file/d/1NtfW8zqoP6CLmXYhX0V-E4LP9gn7pa1I/view?usp=sharing'
 						target='_blank'
-						rel='noreferrer'
-					>
+						rel='noreferrer'>
 						Resume
 					</a>
 				</li>
