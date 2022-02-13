@@ -6,6 +6,8 @@
 - React
 - CSS
 - Javascript
+- React-Bootstrap
+- MaterialUI
 - Visual Studio Code Version 1.63.2
 
 ## Wireframes
