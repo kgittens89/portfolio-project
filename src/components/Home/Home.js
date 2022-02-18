@@ -2,7 +2,7 @@ import React from 'react';
 import 'animate.css';
 import { Random } from 'react-animated-text';
 
-function Home(props) {
+function Home() {
     return (
 			<div className='home component'>
 				<h1 className='animate__animated animate__rubberBand'>
