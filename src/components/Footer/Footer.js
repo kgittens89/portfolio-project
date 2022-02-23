@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
-import { AiFillTwitterCircle } from 'react-icons/ai';
+// import { AiFillTwitterCircle } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 import { Tooltip } from '@mui/material';
 import './Footer.css'

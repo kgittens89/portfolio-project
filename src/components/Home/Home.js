@@ -15,8 +15,8 @@ function Home() {
 					effect='verticalFadeIn'
 					effectChange={2}
 					effectDirection='down'
+					effectDuration={0.6}
 				/>
-				{/* <h4>Software Engineer</h4> */}
 			</div>
 		);
 }
