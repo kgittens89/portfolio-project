@@ -1,11 +1,14 @@
 # Personal Portfolio
 
 ## Link to deployed Site
+ https://keisha-gittens.netlify.app/
 
 ## Technologies Used
 - React
 - CSS
 - Javascript
+- React-Bootstrap
+- MaterialUI
 - Visual Studio Code Version 1.63.2
 
 ## Wireframes
