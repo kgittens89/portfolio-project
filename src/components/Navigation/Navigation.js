@@ -46,7 +46,7 @@ function Navigation() {
 						to='home'
 						spy={true}
 						smooth={true}
-						offset={-70}
+						offset={-200}
 						duration={500}>
 						Home
 					</Link>
@@ -68,7 +68,7 @@ function Navigation() {
 						to='projects'
 						spy={true}
 						smooth={true}
-						offset={-70}
+						offset={-220}
 						duration={500}>
 						Projects
 					</Link>
