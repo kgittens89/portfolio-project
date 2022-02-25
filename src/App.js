@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import Home from './components/Home/Home';
@@ -15,11 +14,6 @@ function App() {
 				<Home/>
 				<AboutMe/>
 				<Projects/>
-				{/* <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<AboutMe />} />
-          <Route path='/projects' element={<Projects />} />
-        </Routes> */}
 			</main>
 			<Footer />
 		</div>
