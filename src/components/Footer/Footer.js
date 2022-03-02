@@ -3,6 +3,7 @@ import { BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 // import { AiFillTwitterCircle } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
+import { IoDocumentText } from 'react-icons/io5';
 import { Tooltip } from '@mui/material';
 import './Footer.css'
 
@@ -23,17 +24,25 @@ function Footer() {
 						rel='noreferrer'>
 						<BsLinkedin className='icons' />
 					</a>
+					<Tooltip title='Resume PDF'>
+						<a
+							href='https://drive.google.com/file/d/1JugAKtak4NL_Oihlby5oTNujkEqswZvl/view'
+							target='_blank'
+							rel='noreferrer'>
+							<IoDocumentText className='icons' />
+						</a>
+					</Tooltip>
 					{/* <a
 						href='https://twitter.com/?lang=en'
 						target='_blank'
 						rel='noreferrer'>
 						<AiFillTwitterCircle className='icons' />
 					</a> */}
-						<Tooltip title='Email Me'>
-					<a href='mailto:keishamsa@me.com' target='_blank' rel='noreferrer'>
+					<Tooltip title='Email Me'>
+						<a href='mailto:keishamsa@me.com' target='_blank' rel='noreferrer'>
 							<MdEmail className='icons' />
-					</a>
-						</Tooltip>
+						</a>
+					</Tooltip>
 				</div>
 			</footer>
 		);
