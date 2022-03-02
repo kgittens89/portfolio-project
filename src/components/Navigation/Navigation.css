@@ -42,7 +42,7 @@ button {
     border: none;
     font-size: 25px;
     background-color: var(--primary);
-    color: black;
+    color: var(--secondary);
 }
 
 @media (min-width: 500px) {
