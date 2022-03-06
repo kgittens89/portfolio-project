@@ -8,7 +8,7 @@ function AboutMe() {
 			<div className='component about'>
 				<h2>About Me</h2>
 				<h4>Software Engineer</h4>
-				<Image src={womanCoding} circle />
+				<Image src={womanCoding} />
 				<p>
 				Hi there 👋🏾, I'm Keisha, a Software Engineer, with a background in healthcare,  based out of New Orleans, LA.
 				I've recently completed an intense Software Engineering Immersive with General Assembly, and am ready to put my new skills to work! 

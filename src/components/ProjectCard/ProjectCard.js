@@ -4,9 +4,9 @@ import {
 	CardContent,
 	CardMedia,
 	Typography,
-	Button,
 	CardActionArea,
 	CardActions,
+	Link,
 } from '@mui/material';
 
 const styles = {
@@ -29,40 +29,41 @@ function ProjectCard({project}) {
 						component='img'
 						image={project.image}
 						alt={project.title}
-                        style={styles.cardImg}
-                    />
+						style={styles.cardImg}
+					/>
 					<CardContent>
 						<Typography gutterBottom variant='h5' component='div'>
 							{project.title}
 						</Typography>
-						<Typography variant='body2'>
-							{project.description}
-						</Typography>
+						<Typography variant='body2'>{project.description}</Typography>
 					</CardContent>
 					<CardActions>
-						<Button
-							size='small'
+						<Link
+							underline='none'
+							variant='body1'
 							href={project.link}
 							target='_blank'
 							rel='noreferrer'>
 							Deployment
-						</Button>
-						<Button
-							size='small'
+						</Link>
+						<Link
+							underline='none'
+							variant='body1'
 							href={project.fontendRepo}
 							target='_blank'
 							rel='noreferrer'>
 							Frontend Repo
-                    </Button>
-                    {project.backendRepo && 
-						<Button
-							size='small'
-							href={project.backendRepo}
-							target='_blank'
-							rel='noreferrer'>
-							Backend Repo
-						</Button>
-                    }
+						</Link>
+						{project.backendRepo && (
+							<Link
+								underline='none'
+								variant='body1'
+								href={project.backendRepo}
+								target='_blank'
+								rel='noreferrer'>
+								Backend Repo
+							</Link>
+						)}
 					</CardActions>
 				</CardActionArea>
 			</Card>
