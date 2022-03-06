@@ -26,7 +26,7 @@ function Footer() {
 					</a>
 					<Tooltip title='Resume PDF'>
 						<a
-							href='https://drive.google.com/file/d/1JugAKtak4NL_Oihlby5oTNujkEqswZvl/view'
+							href='https://drive.google.com/file/d/1RFXFF9ZBcNMKS6EoAF_xKs770NplVI13/view?usp=sharing'
 							target='_blank'
 							rel='noreferrer'>
 							<IoDocumentText className='icons' />

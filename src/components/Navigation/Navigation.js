@@ -74,7 +74,7 @@ function Navigation() {
 				</li>
 				<li>
 					<a
-						href='https://drive.google.com/file/d/1JugAKtak4NL_Oihlby5oTNujkEqswZvl/view?usp=sharing'
+						href='https://drive.google.com/file/d/1RFXFF9ZBcNMKS6EoAF_xKs770NplVI13/view?usp=sharing'
 						target='_blank'
 						rel='noreferrer'>
 						Resume
