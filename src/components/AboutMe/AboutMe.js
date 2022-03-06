@@ -12,7 +12,7 @@ function AboutMe() {
 				<p>
 				Hi there 👋🏾, I'm Keisha, a Software Engineer, with a background in healthcare,  based out of New Orleans, LA.
 				I've recently completed an intense Software Engineering Immersive with General Assembly, and am ready to put my new skills to work! 
-				I'm a critical thinker with a passion for developing creative, easy to understand, solutions to complex problems. When I'm not coding, I enjoy travel, yoga, and curling up with a captivating book. Want to hear more, reach out! I'd love to connect.
+				I'm a critical thinker with a passion for developing creative, easy to understand, solutions to complex problems. When I'm not coding, I enjoy travel, yoga, epic-adventure games,  and curling up with a good book. Want to hear more, reach out! I'd love to connect.
 				</p>
 				<h4>Skills</h4>
 				<p>
