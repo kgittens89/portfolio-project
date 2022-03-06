@@ -6,7 +6,7 @@ import {
 	Typography,
 	CardActionArea,
 	CardActions,
-	Link,
+	Button
 } from '@mui/material';
 
 const styles = {
@@ -38,31 +38,31 @@ function ProjectCard({project}) {
 						<Typography variant='body2'>{project.description}</Typography>
 					</CardContent>
 					<CardActions>
-						<Link
+						<Button
 							underline='none'
 							variant='body1'
 							href={project.link}
 							target='_blank'
 							rel='noreferrer'>
 							Deployment
-						</Link>
-						<Link
+						</Button>
+						<Button
 							underline='none'
 							variant='body1'
-							href={project.fontendRepo}
+							href={project.frontendRepo}
 							target='_blank'
 							rel='noreferrer'>
 							Frontend Repo
-						</Link>
+						</Button>
 						{project.backendRepo && (
-							<Link
+							<Button
 								underline='none'
 								variant='body1'
 								href={project.backendRepo}
 								target='_blank'
 								rel='noreferrer'>
 								Backend Repo
-							</Link>
+							</Button>
 						)}
 					</CardActions>
 				</CardActionArea>
