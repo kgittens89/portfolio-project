@@ -11,7 +11,7 @@ function Home() {
 				<Random
 					className='head'
 					text='Software Engineer'
-					iterations='1'
+					iterations={1}
 					effect='verticalFadeIn'
 					effectChange={2}
 					effectDirection='down'
