@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Book Talk",
+        "image": "https://www.pymnts.com/wp-content/uploads/2016/06/Slow-load-times-eCommerce.png",
+        "description": "Have you ever been deep into a good book, and just wanted to converse with someone else who’s equally as enthralled. Or just leave your thoughts in the air. Introduce Book Talk, an application built to host book discussions. Users can login, add a book that they would like to talk about, and leave comments for other readers to respond to.",
+        "link": "https://book-talk.netlify.app/",
+        "frontendRepo": "https://github.com/K-Rcode/book-talk-frontend",
+        "backendRepo": "https://github.com/K-Rcode/book-talk-backend"
+    },
+    {
+        "title": "The Flow Factory",
+        "image": "https://user-images.githubusercontent.com/83593663/151820954-bd58da80-dbe4-4332-8f80-d1fba1205ab6.png",
+        "description": "The Flow Factory is a yoga application designed for both, new yogis & teachers.Users are able to browse a library of yoga poses and create their own sequences, saving them to the database. Enjoy the flow!",
+        "link": "https://clever-montalcini-9e14ea.netlify.app/",
+        "frontendRepo": "https://github.com/kgittens89/yoga-frontend",
+        "backendRepo": "https://github.com/kgittens89/yoga"
+    },
+    {
+        "title": "Let's Cook",
+        "image": "https://github.com/kgittens89/lets-cook/raw/main/assets/Main.png",
+        "description": "Let's Cook is an application built to accomodate indecisive eaters.You are initially presented with random recipes to choose from. Users can also search for something that may interest them, or generate another random recipe.Happy cooking!",
+        "link": "https://lets-cook-guys.netlify.app/",
+        "frontendRepo": "https://github.com/kgittens89/lets-cook"
+    },
+    {
+        "title": "Spaceman Game",
+        "image": "https://github.com/kgittens89/spaceman-Game/raw/main/assets/images/spaceman-winner.jpeg",
+        "description": "Spaceman is a browser-based two-player game for word-guessing fanatics! Users are able to input a word to be guessed by their opponent. The game is won when either the word is guessed or you run out of chances.Happy guessing!",
+        "link": "https://kgittens89.github.io/spaceman-Game/",
+        "frontendRepo": "https://github.com/kgittens89/spaceman-Game/tree/main"
+    }
+]
