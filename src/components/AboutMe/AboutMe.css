@@ -12,6 +12,10 @@ h2 {
     margin: 200px auto;
 }
 
+.about img {
+    border-radius: 50%;
+}
+
 @media (min-width: 800px) {
     .about {
         width: 800px;
