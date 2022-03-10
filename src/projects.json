@@ -1,7 +1,7 @@
 [
     {
         "title": "Book Talk",
-        "image": "https://www.pymnts.com/wp-content/uploads/2016/06/Slow-load-times-eCommerce.png",
+        "image": "https://user-images.githubusercontent.com/93796800/157583569-0ca67e6b-dfca-4828-9943-774bb2db2fe2.png",
         "description": "Have you ever been deep into a good book, and just wanted to converse with someone else who’s equally as enthralled. Or just leave your thoughts in the air. Introduce Book Talk, an application built to host book discussions. Users can login, add a book that they would like to talk about, and leave comments for other readers to respond to.",
         "link": "https://book-talk.netlify.app/",
         "frontendRepo": "https://github.com/K-Rcode/book-talk-frontend",
