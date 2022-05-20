@@ -6,7 +6,12 @@ import womanCoding from '../../assets/modern-young-woman-sitting-on-260nw-192896
 import { Tooltip } from '@mui/material';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaPython, FaBootstrap } from 'react-icons/fa';
-import { SiMongodb, SiPostgresql, SiDjango } from 'react-icons/si';
+import {
+	SiMongodb,
+	SiPostgresql,
+	SiDjango,
+	SiTypescript,
+} from 'react-icons/si';
 
 function AboutMe() {
     return (
@@ -69,6 +74,11 @@ function AboutMe() {
 					<Tooltip title='Django'>
 						<li>
 							<SiDjango />
+						</li>
+					</Tooltip>
+					<Tooltip title='Typescript'>
+						<li>
+							<SiTypescript />
 						</li>
 					</Tooltip>
 				</ul>

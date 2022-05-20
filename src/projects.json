@@ -17,7 +17,7 @@
     },
     {
         "title": "Let's Cook",
-        "image": "https://github.com/kgittens89/lets-cook/raw/main/assets/Main.png",
+        "image": "https://github.com/kgittens89/lets-cook/raw/main/src/assets/Main.png",
         "description": "Let's Cook is an application built to accomodate indecisive eaters.You are initially presented with random recipes to choose from. Users can also search for something that may interest them, or generate another random recipe.Happy cooking!",
         "link": "https://lets-cook-guys.netlify.app/",
         "frontendRepo": "https://github.com/kgittens89/lets-cook"
