@@ -26,18 +26,30 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 function AboutMe() {
+	// May possibly use later to show Tooltip based on window size
+	// const [isDesktop, setDesktop] = useState(window.innerWidth > 650);
+
+	// const updateMedia = () => {
+	// 	setDesktop(window.innerWidth > 650);
+	// };
+
+	// useEffect(() => {
+	// 	window.addEventListener('resize', updateMedia);
+	// 	return () => window.removeEventListener('resize', updateMedia);
+	// });
+
 	const handleDragStart = (e) => e.preventDefault();
 
 	const items = [
-		<img src={womanCoding} onDragStart={handleDragStart} role='presentation' />,
-		<img src={keisha} onDragStart={handleDragStart} role='presentation' />,
-		<img src={travel} onDragStart={handleDragStart} role='presentation' />,
-		<img src={louvre} onDragStart={handleDragStart} role='presentation' />,
-		<img src={dancing} onDragStart={handleDragStart} role='presentation' />,
-		<img src={haddrick} onDragStart={handleDragStart} role='presentation' />,
-		<img src={sorting} onDragStart={handleDragStart} role='presentation' />,
-		<img src={meditate} onDragStart={handleDragStart} role='presentation' />,
-		<img src={roscoe} onDragStart={handleDragStart} role='presentation' style={{objectPosition: 'top'}} />,
+		<img src={womanCoding} onDragStart={handleDragStart} />,
+		<img src={keisha} onDragStart={handleDragStart} />,
+		<img src={travel} onDragStart={handleDragStart} />,
+		<img src={louvre} onDragStart={handleDragStart} />,
+		<img src={dancing} onDragStart={handleDragStart} />,
+		<img src={haddrick} onDragStart={handleDragStart} />,
+		<img src={sorting} onDragStart={handleDragStart} />,
+		<img src={meditate} onDragStart={handleDragStart} />,
+		<img src={roscoe} onDragStart={handleDragStart} style={{objectPosition: 'top'}} />,
 		<img src={yellow} onDragStart={handleDragStart} />,
 	];
 
@@ -49,7 +61,7 @@ function AboutMe() {
 			<div className='component about'>
 				<h2>About Me</h2>
 				<h4>Software Engineer</h4>
-			{Gallery()}
+				{Gallery()}
 				<p>
 					Hi there 👋🏾, I'm Keisha, a Software Engineer, with a background in
 					healthcare, based out of New Orleans, LA. I've recently completed an
@@ -62,52 +74,52 @@ function AboutMe() {
 				</p>
 				<h4>Skills</h4>
 				<ul className='skills'>
-					<Tooltip title='Javascript'>
+					<Tooltip title='Javascript' open='true'>
 						<li>
 							<IoLogoJavascript />
 						</li>
 					</Tooltip>
-					<Tooltip title='React'>
+					<Tooltip title='React' open='true'>
 						<li>
 							<FaReact />
 						</li>
 					</Tooltip>
-					<Tooltip title='Python'>
+					<Tooltip title='Python' open='true'>
 						<li>
 							<FaPython />
 						</li>
 					</Tooltip>
-					<Tooltip title='HTML'>
+					<Tooltip title='HTML' open='true'>
 						<li>
 							<IoLogoHtml5 />
 						</li>
 					</Tooltip>
-					<Tooltip title='CSS'>
-						<li>
-							<IoLogoCss3 />
-						</li>
-					</Tooltip>
-					<Tooltip title='Bootstrap'>
+					<Tooltip title='Bootstrap' open='true'>
 						<li>
 							<FaBootstrap />
 						</li>
 					</Tooltip>
-					<Tooltip title='MongoDB'>
+					<Tooltip title='MongoDB' open='true'>
 						<li>
 							<SiMongodb />
 						</li>
 					</Tooltip>
-					<Tooltip title='PostgreSQL'>
+					<Tooltip title='CSS' open='true'>
+						<li>
+							<IoLogoCss3 />
+						</li>
+					</Tooltip>
+					<Tooltip title='PostgreSQL' open='true'>
 						<li>
 							<SiPostgresql />
 						</li>
 					</Tooltip>
-					<Tooltip title='Django'>
+					<Tooltip title='Django' open='true'>
 						<li>
 							<SiDjango />
 						</li>
 					</Tooltip>
-					<Tooltip title='Typescript'>
+					<Tooltip title='Typescript' open='true'>
 						<li>
 							<SiTypescript />
 						</li>
