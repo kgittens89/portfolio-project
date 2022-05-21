@@ -10,9 +10,9 @@ import travel from '../../assets/traveling-black-woman.jpeg'
 import meditate from '../../assets/meditate-black-woman.jpeg'
 import dancing from '../../assets/dancing-black-woman.png'
 import roscoe from '../../assets/Roscoe.jpeg'
+import yellow from '../../assets/YellowShirt.jpg'
 
 import { Tooltip } from '@mui/material';
-// import Carousel from 'react-material-ui-carousel';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from 'react-icons/io';
 import { FaReact, FaPython, FaBootstrap } from 'react-icons/fa';
 import {
@@ -38,6 +38,7 @@ function AboutMe() {
 		<img src={sorting} onDragStart={handleDragStart} role='presentation' />,
 		<img src={meditate} onDragStart={handleDragStart} role='presentation' />,
 		<img src={roscoe} onDragStart={handleDragStart} role='presentation' style={{objectPosition: 'top'}} />,
+		<img src={yellow} onDragStart={handleDragStart} />,
 	];
 
 	const Gallery = () => {
