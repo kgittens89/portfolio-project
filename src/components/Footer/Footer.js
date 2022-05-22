@@ -39,7 +39,7 @@ function Footer() {
 						<AiFillTwitterCircle className='icons' />
 					</a> */}
 					<Tooltip title='Email Me'>
-						<a href='mailto:keishamsa@me.com' target='_blank' rel='noreferrer'>
+						<a href='mailto:keisha.gittenssa@gmail.com' target='_blank' rel='noreferrer'>
 							<MdEmail className='icons' />
 						</a>
 					</Tooltip>
