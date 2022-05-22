@@ -13,13 +13,20 @@ import roscoe from '../../assets/Roscoe.jpeg'
 import yellow from '../../assets/YellowShirt.jpg'
 
 import { Tooltip } from '@mui/material';
-import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from 'react-icons/io';
+import {
+	IoLogoJavascript,
+	IoLogoHtml5,
+	IoLogoCss3,
+} from 'react-icons/io';
 import { FaReact, FaPython, FaBootstrap } from 'react-icons/fa';
+import { RiVuejsLine } from 'react-icons/ri';
 import {
 	SiMongodb,
 	SiPostgresql,
 	SiDjango,
 	SiTypescript,
+	SiExpress,
+	SiMaterialui,
 } from 'react-icons/si';
 
 import AliceCarousel from 'react-alice-carousel';
@@ -84,6 +91,11 @@ function AboutMe() {
 							<FaReact />
 						</li>
 					</Tooltip>
+					<Tooltip title='Vue.js' open='true'>
+						<li>
+							<RiVuejsLine />
+						</li>
+					</Tooltip>
 					<Tooltip title='Python' open='true'>
 						<li>
 							<FaPython />
@@ -97,6 +109,16 @@ function AboutMe() {
 					<Tooltip title='Bootstrap' open='true'>
 						<li>
 							<FaBootstrap />
+						</li>
+					</Tooltip>
+					<Tooltip title='Material UI' open='true'>
+						<li>
+							<SiMaterialui />
+						</li>
+					</Tooltip>
+					<Tooltip title='Express' open='true'>
+						<li>
+							<SiExpress />
 						</li>
 					</Tooltip>
 					<Tooltip title='MongoDB' open='true'>
@@ -125,10 +147,6 @@ function AboutMe() {
 						</li>
 					</Tooltip>
 				</ul>
-				{/* <p>
-					Javascript | React | Python | HTML | CSS | Bootstrap | MongoDB |
-					Mongoose | Express | Git | Github | CLI | Django | PostgreSQL
-				</p> */}
 			</div>
 		);
 }
