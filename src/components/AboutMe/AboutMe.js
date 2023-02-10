@@ -18,7 +18,7 @@ import {
 	IoLogoHtml5,
 	IoLogoCss3,
 } from 'react-icons/io';
-import { FaReact, FaPython, FaBootstrap } from 'react-icons/fa';
+import { FaReact, FaPython, FaBootstrap, FaPhoenixFramework } from 'react-icons/fa';
 import { RiVuejsLine } from 'react-icons/ri';
 import {
 	SiMongodb,
@@ -27,6 +27,7 @@ import {
 	SiTypescript,
 	SiExpress,
 	SiMaterialui,
+	SiElixir,
 } from 'react-icons/si';
 
 import AliceCarousel from 'react-alice-carousel';
@@ -71,9 +72,7 @@ function AboutMe() {
 				{Gallery()}
 				<p>
 					Hi there 👋🏾, I'm Keisha, a Software Engineer, with a background in
-					healthcare, based out of New Orleans, LA. I've recently completed an
-					intense Software Engineering Immersive with General Assembly, and am
-					ready to put my new skills to work! I'm a critical thinker with a
+					healthcare, based out of New Orleans, LA. I'm a critical thinker with a
 					passion for developing creative, easy to understand, solutions to
 					complex problems. When I'm not coding, I enjoy travel, yoga,
 					epic-adventure games, and curling up with a good book. Want to hear
@@ -81,6 +80,16 @@ function AboutMe() {
 				</p>
 				<h4>Skills</h4>
 				<ul className='skills'>
+					<Tooltip title='Elixir' open='true'>
+						<li>
+							<SiElixir />
+						</li>
+					</Tooltip>
+					<Tooltip title='Phoenix' open='true'>
+						<li>
+							<FaPhoenixFramework />
+						</li>
+					</Tooltip>
 					<Tooltip title='Javascript' open='true'>
 						<li>
 							<IoLogoJavascript />
@@ -96,14 +105,39 @@ function AboutMe() {
 							<RiVuejsLine />
 						</li>
 					</Tooltip>
-					<Tooltip title='Python' open='true'>
+					{/* <Tooltip title='Python' open='true'>
 						<li>
 							<FaPython />
 						</li>
-					</Tooltip>
-					<Tooltip title='HTML' open='true'>
+					</Tooltip> */}
+					{/* <Tooltip title='HTML' open='true'>
 						<li>
 							<IoLogoHtml5 />
+						</li>
+					</Tooltip> */}
+					<Tooltip title='Express' open='true'>
+						<li>
+							<SiExpress />
+						</li>
+					</Tooltip>
+					<Tooltip title='MongoDB' open='true'>
+						<li>
+							<SiMongodb />
+						</li>
+					</Tooltip>
+					{/* <Tooltip title='CSS' open='true'>
+						<li>
+							<IoLogoCss3 />
+						</li>
+					</Tooltip> */}
+					<Tooltip title='Django' open='true'>
+						<li>
+							<SiDjango />
+						</li>
+					</Tooltip>
+					<Tooltip title='PostgreSQL' open='true'>
+						<li>
+							<SiPostgresql />
 						</li>
 					</Tooltip>
 					<Tooltip title='Bootstrap' open='true'>
@@ -116,36 +150,11 @@ function AboutMe() {
 							<SiMaterialui />
 						</li>
 					</Tooltip>
-					<Tooltip title='Express' open='true'>
-						<li>
-							<SiExpress />
-						</li>
-					</Tooltip>
-					<Tooltip title='MongoDB' open='true'>
-						<li>
-							<SiMongodb />
-						</li>
-					</Tooltip>
-					<Tooltip title='CSS' open='true'>
-						<li>
-							<IoLogoCss3 />
-						</li>
-					</Tooltip>
-					<Tooltip title='PostgreSQL' open='true'>
-						<li>
-							<SiPostgresql />
-						</li>
-					</Tooltip>
-					<Tooltip title='Django' open='true'>
-						<li>
-							<SiDjango />
-						</li>
-					</Tooltip>
-					<Tooltip title='Typescript' open='true'>
+					{/* <Tooltip title='Typescript' open='true'>
 						<li>
 							<SiTypescript />
 						</li>
-					</Tooltip>
+					</Tooltip> */}
 				</ul>
 			</div>
 		);
