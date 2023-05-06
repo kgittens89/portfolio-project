@@ -1,6 +1,6 @@
 :root {
   --primary: rgb(55, 71, 79);
-  --secondary: rgb(224, 224, 224);
+  --secondary: rgb(184, 186, 200);
   --third: rgb(17, 13, 14);
 }
 
@@ -16,6 +16,17 @@ body {
 
 h1 {
   font-size: 10vw;
+}
+
+.accent-font {
+  font-family: 'Fauna One';
+  font-weight: 100;
+  font-size: 1em;
+}
+
+.about p div {
+  text-align: left;
+  padding: 1em 0 0.2em 0.5em;
 }
 
 .home {
@@ -37,6 +48,10 @@ h1 {
 
 main {
   height: 90vh;
+}
+
+.alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
+  visibility: hidden;
 }
 
 @media (min-width: 750px) {

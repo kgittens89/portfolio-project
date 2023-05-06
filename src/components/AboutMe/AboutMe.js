@@ -11,6 +11,7 @@ import meditate from '../../assets/meditate-black-woman.jpeg'
 import dancing from '../../assets/dancing-black-woman.png'
 import roscoe from '../../assets/Roscoe.jpeg'
 import yellow from '../../assets/YellowShirt.jpg'
+import mosaic from '../../assets/Keisha-mosaic.png'
 
 import { Tooltip } from '@mui/material';
 import {
@@ -49,6 +50,7 @@ function AboutMe() {
 	const handleDragStart = (e) => e.preventDefault();
 
 	const items = [
+		<img src={mosaic} onDragStart={handleDragStart} />,
 		<img src={womanCoding} onDragStart={handleDragStart} />,
 		<img src={keisha} onDragStart={handleDragStart} />,
 		<img src={travel} onDragStart={handleDragStart} />,
@@ -57,7 +59,11 @@ function AboutMe() {
 		<img src={haddrick} onDragStart={handleDragStart} />,
 		<img src={sorting} onDragStart={handleDragStart} />,
 		<img src={meditate} onDragStart={handleDragStart} />,
-		<img src={roscoe} onDragStart={handleDragStart} style={{objectPosition: 'top'}} />,
+		<img
+			src={roscoe}
+			onDragStart={handleDragStart}
+			style={{ objectPosition: 'top' }}
+		/>,
 		<img src={yellow} onDragStart={handleDragStart} />,
 	];
 
@@ -66,17 +72,34 @@ function AboutMe() {
 	};
 
     return (
-			<div className='component about'>
+			<div className='component about accent-font'>
 				<h2>About Me</h2>
 				<h4>Software Engineer</h4>
 				{Gallery()}
 				<p>
-					Hi there 👋🏾, I'm Keisha, a Software Engineer, with a background in
-					healthcare, based out of New Orleans, LA. I'm a critical thinker with a
-					passion for developing creative, easy to understand, solutions to
-					complex problems. When I'm not coding, I enjoy travel, yoga,
-					epic-adventure games, and curling up with a good book. Want to hear
-					more, reach out! I'd love to connect.
+					<div>
+						Hi there 👋🏾, my name is Keisha Gittens, and I'm a software engineer
+						with 1 year of professional experience. Before transitioning into
+						tech, I worked as a registered nurse for about 8 years, where I
+						developed my skills in empathy, communication, and problem-solving.
+					</div>
+					<div>
+						When I'm not coding, I enjoy practicing yoga, traveling, spending
+						time with my dog, dancing, attending festivals, and trying new
+						restaurants. I'm a firm believer in the importance of self-care and
+						encouraging others to prioritize their well-being.{' '}
+					</div>{' '}
+					<div>
+						My passion for technology started when I realized how much it can
+						positively impact people's lives, and I'm excited to be a part of
+						this ever-evolving industry. As a software engineer, I'm constantly
+						learning and pushing myself to improve my skills and create
+						innovative solutions for complex problems.{' '}
+					</div>{' '}
+					<div>
+						Thank you for visiting my portfolio, and I look forward to
+						connecting with you!
+					</div>
 				</p>
 				<h4>Skills</h4>
 				<ul className='skills'>
