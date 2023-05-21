@@ -11,7 +11,7 @@
         "title": "The Flow Factory",
         "image": "https://user-images.githubusercontent.com/83593663/151820954-bd58da80-dbe4-4332-8f80-d1fba1205ab6.png",
         "description": "The Flow Factory is a yoga application designed for both, new yogis & teachers.Users are able to browse a library of yoga poses and create their own sequences, saving them to the database. Enjoy the flow!",
-        "link": "https://clever-montalcini-9e14ea.netlify.app/",
+        "link": "https://flow-factory.netlify.app/",
         "frontendRepo": "https://github.com/kgittens89/yoga-frontend",
         "backendRepo": "https://github.com/kgittens89/yoga"
     },
