@@ -11,13 +11,16 @@ import {
 
 const styles = {
 	cardImg: {
-        // objectFit: 'contain',
-        height: 210
+		height: 210,
 	},
 	card: {
 		maxWidth: 345,
 		padding: '1em',
 		margin: '1em',
+		backgroundColor: '#264653',
+	},
+	buttonText: {
+		color: '#e0e4fb',
 	},
 };
 
@@ -39,16 +42,16 @@ function ProjectCard({project}) {
 					</CardContent>
 					<CardActions>
 						<Button
+							style={styles.buttonText}
 							underline='none'
-							variant='body1'
 							href={project.link}
 							target='_blank'
 							rel='noreferrer'>
 							Deployment
 						</Button>
 						<Button
+							style={styles.buttonText}
 							underline='none'
-							variant='body1'
 							href={project.frontendRepo}
 							target='_blank'
 							rel='noreferrer'>
@@ -56,8 +59,8 @@ function ProjectCard({project}) {
 						</Button>
 						{project.backendRepo && (
 							<Button
+								style={styles.buttonText}
 								underline='none'
-								variant='body1'
 								href={project.backendRepo}
 								target='_blank'
 								rel='noreferrer'>

@@ -16,19 +16,16 @@ import mosaic from '../../assets/Keisha-mosaic.png'
 import { Tooltip } from '@mui/material';
 import {
 	IoLogoJavascript,
-	IoLogoHtml5,
-	IoLogoCss3,
 } from 'react-icons/io';
-import { FaReact, FaPython, FaBootstrap, FaPhoenixFramework } from 'react-icons/fa';
-import { RiVuejsLine } from 'react-icons/ri';
+import { FaReact, FaBootstrap, FaPhoenixFramework } from 'react-icons/fa';
 import {
 	SiMongodb,
 	SiPostgresql,
 	SiDjango,
-	SiTypescript,
 	SiExpress,
 	SiMaterialui,
 	SiElixir,
+	SiTailwindcss,
 } from 'react-icons/si';
 
 import AliceCarousel from 'react-alice-carousel';
@@ -123,21 +120,6 @@ function AboutMe() {
 							<FaReact />
 						</li>
 					</Tooltip>
-					<Tooltip title='Vue.js' open='true'>
-						<li>
-							<RiVuejsLine />
-						</li>
-					</Tooltip>
-					{/* <Tooltip title='Python' open='true'>
-						<li>
-							<FaPython />
-						</li>
-					</Tooltip> */}
-					{/* <Tooltip title='HTML' open='true'>
-						<li>
-							<IoLogoHtml5 />
-						</li>
-					</Tooltip> */}
 					<Tooltip title='Express' open='true'>
 						<li>
 							<SiExpress />
@@ -148,11 +130,6 @@ function AboutMe() {
 							<SiMongodb />
 						</li>
 					</Tooltip>
-					{/* <Tooltip title='CSS' open='true'>
-						<li>
-							<IoLogoCss3 />
-						</li>
-					</Tooltip> */}
 					<Tooltip title='Django' open='true'>
 						<li>
 							<SiDjango />
@@ -173,11 +150,11 @@ function AboutMe() {
 							<SiMaterialui />
 						</li>
 					</Tooltip>
-					{/* <Tooltip title='Typescript' open='true'>
+					<Tooltip title='Tailwind CSS' open='true'>
 						<li>
-							<SiTypescript />
+							<SiTailwindcss />
 						</li>
-					</Tooltip> */}
+					</Tooltip>
 				</ul>
 			</div>
 		);

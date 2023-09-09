@@ -1,7 +1,7 @@
 :root {
-  --primary: rgb(55, 71, 79);
-  --secondary: rgb(184, 186, 200);
-  --third: rgb(17, 13, 14);
+  --primary: #E9C46A;
+  --secondary: #264653;
+  --third: #000000;
 }
 
 .App {
