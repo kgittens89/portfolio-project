@@ -26,7 +26,7 @@ function Footer() {
 					</a>
 					<Tooltip title='Resume PDF'>
 						<a
-							href='https://drive.google.com/file/d/1gTEc0rnbiMr-EVMYJ4kgCA0KI9ItGgIP/view?usp=sharing'
+							href='https://drive.google.com/file/d/1UvxTGrJHQG09ADNueq_-mBqbIeZ4qnmP/view?usp=sharing'
 							target='_blank'
 							rel='noreferrer'>
 							<IoDocumentText className='icons' />
@@ -39,7 +39,10 @@ function Footer() {
 						<AiFillTwitterCircle className='icons' />
 					</a> */}
 					<Tooltip title='Email Me'>
-						<a href='mailto:keisha.gittenssa@gmail.com' target='_blank' rel='noreferrer'>
+						<a
+							href='mailto:keisha.gittenssa@gmail.com'
+							target='_blank'
+							rel='noreferrer'>
 							<MdEmail className='icons' />
 						</a>
 					</Tooltip>
