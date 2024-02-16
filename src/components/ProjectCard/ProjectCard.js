@@ -17,10 +17,11 @@ const styles = {
 		maxWidth: 345,
 		padding: '1em',
 		margin: '1em',
-		backgroundColor: '#264653',
+		backgroundColor: '#343E3D',
 	},
 	buttonText: {
-		color: '#e0e4fb',
+		color: '#8BAAAD',
+		fontSize: '0.5em',
 	},
 };
 
