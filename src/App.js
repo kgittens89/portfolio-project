@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 
 import ScrollToTop from 'react-scroll-to-top';
 import { styled } from '@mui/material';
+import Articles from './components/Articles/Articles';
 
 const Scroll = styled(ScrollToTop)({
 	color: 'rgb(55, 71, 79)',
@@ -25,6 +26,7 @@ function App() {
 			<main>
 				<Home />
 				<AboutMe />
+			  <Articles />
 			  <Projects />
 			  <Scroll height='20' smooth/>
 			</main>
